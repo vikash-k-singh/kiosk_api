@@ -1,22 +1,21 @@
 # README
 
-----------
 ## 🚀 Getting Started
 
 **Prerequisites:**
 
 Make sure you have the following installed:
 
-Ruby version - 3.4 or higher
-Ruby on Rails (8.x.x)
-Bundler
-Database (e.g. PostgreSQL / MySQL )
+> Ruby version - 3.4 or higher <br/>
+> Ruby on Rails (8.x.x) <br/>
+> Bundler <br/>
+> Database (e.g. PostgreSQL / MySQL )
 
 ----------
 
 **1. Clone the Repository**
 ```sh
-git clone https://github.com/<your-username>/<your-repo>.git
+git clone https://github.com/vikash-k-singh/kiosk_api.git
 cd <your-repo>
 ```
 
