@@ -66,5 +66,3 @@ rails console        # open Rails console
 rails routes         # list routes
 rails db:reset       # reset database
 ```
-
-----------
