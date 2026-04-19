@@ -1,24 +1,71 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+----------
+## 🚀 Getting Started
 
-Things you may want to cover:
+**Prerequisites:**
 
-* Ruby version
+Make sure you have the following installed:
 
-* System dependencies
+Ruby version - 3.4 or higher
+Ruby on Rails (8.x.x)
+Bundler
+Database (e.g. PostgreSQL / MySQL )
 
-* Configuration
+----------
 
-* Database creation
+**1. Clone the Repository**
+```sh
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
+```
 
-* Database initialization
 
-* How to run the test suite
+Or if you have a repo in zip
 
-* Services (job queues, cache servers, search engines, etc.)
+**Unzip the file on local.**
+```sh
+cd <your-unzipped-repo>
+```
 
-* Deployment instructions
+----------
 
-* ...
+**2. Install Dependencies**
+```sh
+bundle install
+```
+
+----------
+
+**3. Setup Database**
+```sh
+rails db:create
+rails db:migrate
+```
+
+----------
+
+**5. Start the Server**
+```sh
+rails server
+```
+
+Visit: http://localhost:3000
+
+----------
+
+**6. Run Tests**
+```sh
+rspec .             # rspec test case execution
+```
+
+----------
+
+**7. Common Commands**
+```sh
+rails console        # open Rails console
+rails routes         # list routes
+rails db:reset       # reset database
+```
+
+----------

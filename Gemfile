@@ -44,6 +44,9 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
+
+  # Ruby LSP for IDE support [https://github.com/Shopify/ruby-lsp]
+  gem "ruby-lsp", require: false
 end
 
 group :development, :test do
