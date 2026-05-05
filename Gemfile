@@ -50,6 +50,6 @@ group :development, :test do
 end
 
 group :development, :test do
-  gem "rspec-rails", "~> 7.0" # Use the version compatible with your Rails version
+  gem "rspec-rails", "~> 8.0" # Use the version compatible with your Rails version
   gem "rubocop", "~> 1.82", require: false
 end
