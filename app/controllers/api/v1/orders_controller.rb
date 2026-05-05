@@ -2,7 +2,7 @@
 class Api::V1::OrdersController < ApplicationController
   # Create a new kiosk order
   def create
-    result = OrderProcessor.new(items_params).call
+    result = Orders::Processor.new(items_params).call
 
     render json: result, status: :ok
   rescue StandardError => e

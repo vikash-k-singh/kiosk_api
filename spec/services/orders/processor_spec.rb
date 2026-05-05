@@ -1,7 +1,7 @@
-# spec/services/order_processor_spec.rb
+# spec/services/orders/processor_spec.rb
 require "rails_helper"
 
-RSpec.describe OrderProcessor do
+RSpec.describe Orders::Processor do
   it "calculates prep schedule correctly" do
     items = [
       { item_id: 1, qty: 2 }, # 180

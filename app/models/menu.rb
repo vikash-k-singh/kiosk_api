@@ -1,4 +1,4 @@
-# app/services/menu.rb
+# app/models/menu.rb
 # Defines the menu items available for order processing.
 class Menu
   ITEMS = {
